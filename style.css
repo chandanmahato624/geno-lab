@@ -345,6 +345,12 @@ img {
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .navbar .navbar-nav {
           margin-right: 30px; } }
+          @media only screen and (min-width: 714px) and (max-width: 1364px){
+            .header-area .navbar{
+              height: 110px;
+            }
+          }
+               
   .header-area.sticky {
     background-color: #000000;
     margin-top: 0;
