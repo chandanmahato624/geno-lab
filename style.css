@@ -363,7 +363,27 @@ img {
               max-width:75%;
             }
           }
-               
+          @media only screen and (min-width: 233px) and (max-width: 390px){
+            .header-area .navbar{
+              height: 70px;
+            
+            }
+
+            .header-area .navbar-brand{
+              max-width:75%;
+            }
+          }
+          @media only screen and (min-width: 415px) and (max-width: 993px){
+            .header-area .navbar{
+              height: 70px;
+            
+            }
+
+            .header-area .navbar-brand{
+              max-width:55%;
+            }
+          }
+                 
   .header-area.sticky {
     background-color: #000000;
     margin-top: 0;
