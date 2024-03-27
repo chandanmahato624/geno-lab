@@ -350,19 +350,15 @@ img {
           margin-right: 30px; } }
           /* <-------------------- logo responsive start---------------------------> */
 
-          @media only screen and (min-width: 714px) and (max-width: 1364px){
-            .header-area .navbar{
-              height: 110px;
-            }
-          }
-          @media only screen and (min-width: 390px) and (max-width: 992px){
+         
+          @media only screen and (min-width: 150px) and (max-width: 232px){
             .header-area .navbar{
               height: 70px;
             
             }
 
             .header-area .navbar-brand{
-              max-width:75%;
+              max-width:55%;
             }
           }
           @media only screen and (min-width: 233px) and (max-width: 390px){
@@ -375,6 +371,18 @@ img {
               max-width:75%;
             }
           }
+
+          @media only screen and (min-width: 390px) and (max-width: 992px){
+            .header-area .navbar{
+              height: 70px;
+            
+            }
+
+            .header-area .navbar-brand{
+              max-width:75%;
+            }
+          }
+
           @media only screen and (min-width: 415px) and (max-width: 993px){
             .header-area .navbar{
               height: 70px;
@@ -385,16 +393,15 @@ img {
               max-width:55%;
             }
           }
-          @media only screen and (min-width: 150px) and (max-width: 232px){
-            .header-area .navbar{
-              height: 70px;
-            
-            }
 
-            .header-area .navbar-brand{
-              max-width:55%;
+          @media only screen and (min-width: 714px) and (max-width: 1364px){
+            .header-area .navbar{
+              height: 110px;
             }
           }
+         
+         
+          
           /* <-------------------- logo responsive End---------------------------> */           
   .header-area.sticky {
     background-color: #000000;
